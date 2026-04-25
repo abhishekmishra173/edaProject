@@ -16,7 +16,7 @@ To run this project on your local machine, you will need Python installed along 
    pip install pandas numpy matplotlib seaborn
 
    ```
-   1. **Run the script:**
+2. **Run the script:**
    ```bash
    python eda_project.py
    ```
@@ -27,23 +27,23 @@ To run this project on your local machine, you will need Python installed along 
 
  1. **Age Distribution**
 The histogram below shows the distribution of passenger ages. The majority of passengers aboard the Titanic were young adults between the ages of 20 and 35. There was also a notable spike representing infants and young children.
-![Age Distribution Chart](charts/_age_distribution.png)
+![Age Distribution Chart](charts/1_age_distribution.png)
 
 2. **Overall Survival Count**
 Tragically, the count plot confirms that the majority of passengers did not survive the disaster. Out of the total dataset, the number of non-survivors significantly outnumbers the survivors.
-![Survival Count Chart](charts/_survival_count.png)
+![Survival Count Chart](charts/2_survival_count.png)
 
 3. **Age vs. Fare (Color-coded by Survival)**
 This scatter plot maps out passenger Age against Ticket Fare, using color to indicate survival (Blue = Did not survive, Orange = Survived). It visually demonstrates that passengers who paid higher fares (higher up on the Y-axis) had a much higher likelihood of survival, regardless of their age.
-![Age vs Fare Chart](charts/_age_vs_fare.png)
+![Age vs Fare Chart](charts/3_age_vs_fare.png)
 
 4. **Age Distribution Across Passenger Classes**
 The box plot highlights the socio-economic age divide on the ship. 1st-class passengers tended to be significantly older (median age ~37), while 3rd-class passengers were generally younger (median age ~25).
-![Class vs Age Chart](charts/_class_vs_age.png)
+![Class vs Age Chart](charts/4_class_vs_age.png)
 
 5. **Correlation Heatmap**
 The heatmap displays the statistical correlation between all numerical variables. A key takeaway is the strong negative correlation between pclass (Passenger Class) and fare (-0.55), which confirms that lower-numbered classes (1st class) were associated with much higher ticket prices.
-![Correlation Heatmap Chart](charts/_correlation_heatmap.png)
+![Correlation Heatmap Chart](charts/5_correlation_heatmap.png)
 
  ## 💡 Conclusion
 Through this Exploratory Data Analysis, we successfully identified critical factors influencing Titanic survival rates. The visualizations clearly show that socio-economic status (represented by ticket fare and passenger class) played a major role in survival outcomes.
